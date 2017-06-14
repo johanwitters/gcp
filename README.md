@@ -23,6 +23,10 @@ git push
 git pull
 git clone https://github.com/johanwitters/gcp.git
 ...
+e.g.
+git add .
+git commit "command line tool"
+git push
 
 ### 3. Browse to
 https://github.com/johanwitters/gcp/tree/master
@@ -32,9 +36,8 @@ https://console.cloud.google.com/home/dashboard?project=johan-w-test1
 Open terminal
 cd /home/johan/github
 see git commands
-
-git push and pull between gcp and local machine
-
+e.g. 
+git pull
 
 ### 5. Set project
 gcloud config set project johan-w-test1
