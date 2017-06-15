@@ -59,8 +59,10 @@ Set JDK8
   
   sudo update-alternatives --set javac /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
   (before it was pointing to /etc/alternatives/javac)
-    
 
-### Usefull links
+  vi ~/.bashrc
+  export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64
+     
+###Usefull links
 
 https://cloud.google.com/java/tutorials/bookshelf-on-compute-engine
