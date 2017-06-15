@@ -54,9 +54,12 @@ e.g.
   gsutil defacl set public-read gs://johan-w-test1 
 
 Set JDK8
-  update-alternatives --set java /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
-  
+  sudo update-alternatives --set java /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
   (before it was pointing to /etc/alternatives/java)
+  
+  sudo update-alternatives --set javac /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
+  (before it was pointing to /etc/alternatives/javac)
+    
 
 ### Usefull links
 
