@@ -39,7 +39,7 @@ public class CreateTopic {
         System.out.printf("Topic %s:%s created.\n", topic.getProject(), topic.getTopic());
     }
 
-    public static void main(String[] args) throws IOException {
-        tryIt();
+    public static void main(String[] args) throws Exception {
+        tryIt2();
     }
 }
