@@ -3,3 +3,5 @@
 *.iws
 .idea
 target
+logs
+spark-warehouse
