@@ -35,7 +35,7 @@
 
     <modules>
 		<module>test1</module>
-		<module>scala_maven</module>
+		<module>testscala</module>
     </modules>
 
 	<build>
