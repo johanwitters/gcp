@@ -16,7 +16,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         
         <activemq.version>5.7.0</activemq.version>
-        <java.version>1.7</java.version>
+        <java.version>1.8</java.version>
 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
@@ -35,6 +35,7 @@
 
     <modules>
 		<module>test1</module>
+		<module>test-scala</module>
     </modules>
 
 	<build>

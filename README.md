@@ -44,4 +44,20 @@ gcloud config set project johan-w-test1
 mvn appengine:deploy
 gcloud app browse
 
+### 6. Etc
+Create bucket:
+  gsutil mb gs://[YOUR-BUCKET-NAME]
+  gsutil defacl set public-read gs://[YOUR-BUCKET-NAME]
 
+e.g.
+  gsutil mb gs://johan-w-test1
+  gsutil defacl set public-read gs://johan-w-test1 
+
+Set JDK8
+  update-alternatives --set java /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
+  
+  (before it was pointing to /etc/alternatives/java)
+
+### Usefull links
+
+https://cloud.google.com/java/tutorials/bookshelf-on-compute-engine
